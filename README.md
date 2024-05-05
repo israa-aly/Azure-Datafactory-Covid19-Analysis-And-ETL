@@ -14,28 +14,43 @@ in its raw form, which represents the Bronze layer of our architecture.
 ![hhPNG](https://github.com/israa-aly/Azure-Datafactory-Covid19-Analysis-And-ETL/assets/68852141/74a094a3-975b-4e18-9f87-89d58af33d1e)
 
 # Data Transformation
-#1- Data flow
-Cases and deaths data
-![Capture](https://github.com/israa-aly/Azure-Datafactory-Covid19-Analysis-And-ETL/assets/68852141/e9b8f5fd-d35a-4ed1-82a2-fa7aa0b84ccb)
- 
-Hosbital admissions data 
-![Capture](![Capture](https://github.com/israa-aly/Azure-Datafactory-Covid19-Analysis-And-ETL/assets/68852141/b9dc606e-e9a6-4bf7-96ee-29ce57c0c9c3)
-https://github.com/israa-aly/Azure-Datafactory-Covid19-Analysis-And-ETL/assets/68852141/46e472ea-bbc7-4044-a7be-c11d00893829)
+# 1- Data flow
 
-#2-Databricks
+Cases and deaths data
+![Capture](https://github.com/israa-aly/Azure-Datafactory-Covid19-Analysis-And-ETL/assets/68852141/3f678710-5056-4cc2-b603-c5949e3f1e00)
+
+Hosbital admissions data  
+
+![Capture](https://github.com/israa-aly/Azure-Datafactory-Covid19-Analysis-And-ETL/assets/68852141/9e6e6635-3100-4c3a-a3c8-0af457d01fc6)
+
+# 2-Databricks
+
 The process involves creating a cluster then processing population data using databricks notbook utilizing pyspark.
-![Capture](https://github.com/israa-aly/Azure-Datafactory-Covid19-Analysis-And-ETL/assets/68852141/d04abdbc-aad7-4ffa-937f-69c954f465d6)
+
+![Capture](https://github.com/israa-aly/Azure-Datafactory-Covid19-Analysis-And-ETL/assets/68852141/e26d79c1-8c09-4523-8ca4-73464b4c97c5)
 
 #Data loading
+
 Then loading the processed data into Azure SQL Database which represents our Gold layer that we will use for reporting.
-#Workflow Orchesteration
+
+# Workflow Orchesteration
 Creating triggers to automate the pipelines Execution daily.
-#Visualization using Power BI
+
+# Visualization using Power BI
+
+![Capture](https://github.com/israa-aly/Azure-Datafactory-Covid19-Analysis-And-ETL/assets/68852141/2468cfaf-b87a-405f-8e3e-aa1635079a78)
+
+
 ![Capture](https://github.com/israa-aly/Azure-Datafactory-Covid19-Analysis-And-ETL/assets/68852141/99ad95ad-1c7f-4a08-87a0-1209dd5ab531)
+
+
 ![Capture](https://github.com/israa-aly/Azure-Datafactory-Covid19-Analysis-And-ETL/assets/68852141/9b45c79c-0714-4187-a46a-8a838ff0bd24)
-![Uploading Capture.PNG…]()
-#Resources
+
+
+# Resources
+
 European Centre for Disease Prevention and Control (ECDC):https://www.ecdc.europa.eu/en/data-dashboards-and-databases
+
 Project Use Case:https://www.udemy.com/course/learn-azure-data-factory-from-scratch/?kw=azure+data+factory+fo+da&src=sac&couponCode=KEEPLEARNING
 
 
