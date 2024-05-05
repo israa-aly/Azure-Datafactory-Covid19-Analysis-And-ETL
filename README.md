@@ -19,7 +19,7 @@ in its raw form, which represents the Bronze layer of our architecture.
 Cases and deaths data
 ![Capture](https://github.com/israa-aly/Azure-Datafactory-Covid19-Analysis-And-ETL/assets/68852141/3f678710-5056-4cc2-b603-c5949e3f1e00)
 
-Hosbital admissions data  
+Hospital admissions data  
 
 ![Capture](https://github.com/israa-aly/Azure-Datafactory-Covid19-Analysis-And-ETL/assets/68852141/9e6e6635-3100-4c3a-a3c8-0af457d01fc6)
 
